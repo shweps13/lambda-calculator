@@ -15,9 +15,12 @@ const Numbers = () => {
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
-       data.map(item => (
+       {numberState.map((number) => (
+        <NumberButton num = {number} />
+        ))}
 
-       ))
     </div>
   );
 };
+
+export default Numbers;
