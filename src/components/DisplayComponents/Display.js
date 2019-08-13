@@ -7,6 +7,6 @@ const Display = () => {
     setDisplayState(num);
   };
 
-  return <div><p>{displayState}</p></div>;
+  return <div className="display"><p>{displayState}</p></div>;
 };
 export default Display;
