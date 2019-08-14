@@ -1,0 +1,78 @@
+.container {
+    background-color: brown;
+    width: 40%;
+    margin: 3% 27% 0 27%;
+    padding: 2% 4%;
+    border-radius: 15px;
+}
+.display {
+    background-color: black;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: 3% 0;
+    text-align: right;
+    font-size: 40px;
+}
+.btns {
+    display: flex;
+}
+.left {
+    width: 75%;
+    /* background-color: aquamarine; */
+}
+.right {
+    width: 25%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.right button {
+    width: 90px;
+    padding: 25px 0;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(79, 157, 206);
+    border-radius: 40px;
+    font-size: 30px;
+}
+.spec {
+    width: 100%;
+}
+.spec button, .nums button {
+    font-size: 30px;
+    width: 90px;
+    padding: 25px 0;
+    margin-right: 35px;
+    background-color: rgb(37, 83, 235);
+    color: white;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.nums {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nums button {
+    background-color: rgb(36, 36, 128);
+}
+.nums button:nth-child(10) {
+    width: 210px;
+}
+
+button {
+    border: 1px solid black;
+}
+button:hover {
+
+    background-color: black;
+}
+
+.btns {
+    margin-left: 5px;
+}
